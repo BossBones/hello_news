@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Meu Feed Personalizado</title>
-  <link>https://seu-usuario.github.io/meu-feed-rss/</link>
-  <description>Descrição do meu feed</description>
+  <title>Hello News</title>
+  <link>https://bossbones.github.io/hello_news/feed.xml</link>
+  <description>Atualizações importantes para chegar</description>
   <language>pt-br</language>
   
-  <atom:link href="https://seu-usuario.github.io/meu-feed-rss/feed.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="https://bossbones.github.io/hello_news/feed.xml" rel="self" type="application/rss+xml" />
 
   <item>
-    <title>Título do Post</title>
+    <title>Olá mundo</title>
     <link>https://seu-usuario.github.io/meu-feed-rss/post1.html</link>
     
     <guid isPermaLink="true">https://seu-usuario.github.io/meu-feed-rss/post1.html</guid>
@@ -17,8 +17,8 @@
     <pubDate>Tue, 23 Dec 2025 12:00:00 +0000</pubDate>
     
     <description><![CDATA[
-      <img src="https://seu-usuario.github.io/meu-feed-rss/imagens/foto1.jpg" /><br/>
-      Aqui vai o texto da descrição. O CDATA protege o HTML interno.
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcinefilms-planet.fr%2Fwp-content%2Fuploads%2F2016%2F07%2Fstitch-personnage-lilo-stitch-04.jpg&f=1&nofb=1&ipt=5a0407eb579bbd0255773789da00138ecbc0732d27fa4943e779a609882a4120" /><br/>
+      Você receberá informações importantes por aqui
     ]]></description>
 
     <enclosure url="https://seu-usuario.github.io/meu-feed-rss/imagens/foto1.jpg" length="0" type="image/jpeg" />
