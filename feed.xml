@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Hello News</title>
-  <link></link>
-  <description>Feed RSS para atualizações</description>
+  <title>Meu Feed Personalizado</title>
+  <link>https://seu-usuario.github.io/meu-feed-rss/</link>
+  <description>Descrição do meu feed</description>
+  <language>pt-br</language>
   
+  <atom:link href="https://seu-usuario.github.io/meu-feed-rss/feed.xml" rel="self" type="application/rss+xml" />
+
   <item>
-    <title>Primeiro Post</title>
-    <description>Esse é o primeiro post</description>
-    <pubDate>Tue, 23 Dec 2025 10:00:00 GMT</pubDate>
+    <title>Título do Post</title>
+    <link>https://seu-usuario.github.io/meu-feed-rss/post1.html</link>
+    
+    <guid isPermaLink="true">https://seu-usuario.github.io/meu-feed-rss/post1.html</guid>
+    
+    <pubDate>Tue, 23 Dec 2025 12:00:00 +0000</pubDate>
+    
+    <description><![CDATA[
+      <img src="https://seu-usuario.github.io/meu-feed-rss/imagens/foto1.jpg" /><br/>
+      Aqui vai o texto da descrição. O CDATA protege o HTML interno.
+    ]]></description>
+
+    <enclosure url="https://seu-usuario.github.io/meu-feed-rss/imagens/foto1.jpg" length="0" type="image/jpeg" />
+    <media:content url="https://seu-usuario.github.io/meu-feed-rss/imagens/foto1.jpg" medium="image" />
   </item>
+
 </channel>
 </rss>
