@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Hello News</title>
+  <link></link>
+  <description>Feed RSS para atualizações</description>
+  
+  <item>
+    <title>Primeiro Post</title>
+    <description>Esse é o primeiro post</description>
+    <pubDate>Tue, 23 Dec 2025 10:00:00 GMT</pubDate>
+  </item>
+</channel>
+</rss>
